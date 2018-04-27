@@ -14,6 +14,7 @@ gem 'rspec'
 gem 'rspec-sinatra'
 gem 'rubocop'
 gem 'selenium-webdriver'
+gem 'sequel'
 gem 'shotgun'
 gem 'simplecov', require: false, group: :test
 gem 'simplecov-console', require: false, group: :test
