@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
-require_relative '../../../sequel_test_config/sequel'
-require_relative '../../support/db'
-require_relative '../../../sequel_test_app/ledger'
+require_relative '../../../config/sequel'
+require_relative '../../../app/ledger'
 
 module ExpenseTracker
 
-  describe Ledger, :aggregate_failures do
+  describe Ledger, :aggregate_failures, :db do
     let(:ledger) { Ledger.new }
     let(:expense) do
       { payee: 'Starbucks',
@@ -28,15 +27,15 @@ module ExpenseTracker
           )]
         end
       end
+
       context 'when an expense lacks a payee' do
         it 'rejects an expense as invalid' do
-          expense.delete('payee')
-
+          expense.delete(:payee)
           result = ledger.record(expense)
 
           expect(result).not_to be_success
           expect(result.expense_id).to eq nil
-          expect(result.error_message).to include 'payee is required'
+          expect(result.error_message).to include '`payee` is required'
 
           expect(DB[:expenses].count).to eq 0
         end
