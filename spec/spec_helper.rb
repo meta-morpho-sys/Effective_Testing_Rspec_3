@@ -18,6 +18,9 @@ require 'rake'
 #   end
 # end
 
+RSpec.configure do |config|
+  config.order = :random
+end
 
 # require our Sinatra app file
 # require File.join(File.dirname(__FILE__), '..', 'app.rb')
@@ -28,6 +31,7 @@ Capybara.register_driver :rack_test do |app|
 end
 
 # Capybara.app = BookmarkManager
+
 
 SCF = SimpleCov::Formatter
 formatters = [SCF::Console, SCF::HTMLFormatter]
