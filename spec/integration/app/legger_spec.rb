@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require_relative '../../../config/sequel'
 require_relative '../../../app/ledger'
 
 module ExpenseTracker
@@ -53,7 +52,7 @@ module ExpenseTracker
         )
       end
 
-      it 'returns a blank array when there are no matching expenses' do
+      pit 'returns a blank array when there are no matching expenses' do
         expect(ledger.expenses_on('2017-06-10')).to eq []
       end
     end
