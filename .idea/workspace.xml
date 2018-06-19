@@ -1,19 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758083c5-191b-4f2a-b465-444d79c4c198" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/expence_tracker/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.rspec" afterPath="$PROJECT_DIR$/expence_tracker/.rspec" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/expence_tracker/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/expence_tracker/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/expence_tracker/README.md" />
-      <change beforePath="$PROJECT_DIR$/app/ledger.rb" afterPath="$PROJECT_DIR$/expence_tracker/app/ledger.rb" />
-      <change beforePath="$PROJECT_DIR$/config/sequel.rb" afterPath="$PROJECT_DIR$/expence_tracker/config/sequel.rb" />
-      <change beforePath="$PROJECT_DIR$/db/migrations/0001_create_expenses.rb" afterPath="$PROJECT_DIR$/expence_tracker/db/migrations/0001_create_expenses.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/examples.txt" afterPath="$PROJECT_DIR$/expence_tracker/spec/examples.txt" />
-      <change beforePath="$PROJECT_DIR$/spec/integration/app/legger_spec.rb" afterPath="$PROJECT_DIR$/expence_tracker/spec/integration/app/legger_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/expence_tracker/spec/spec_helper.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/support/db.rb" afterPath="$PROJECT_DIR$/expence_tracker/spec/support/db.rb" />
+    <list default="true" id="2754f0f8-3611-43b4-b3d9-3eef5b60ed99" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/Rakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/alan.tex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/ch1.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/ch2.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/ch3.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/ch4.markdown" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/filelists.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/scratch/test.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/subdir/appendix.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../rake_study/~ch1.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/Effective_Testing_Rspec.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/astarte.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/expence_tracker.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/.idea/expence_tracker.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/.rspec" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/app/api.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/app/ledger.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/config/sequel.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/db/migrations/0001_create_expenses.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/spec/acceptance/expense_tracker_api_spec.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/spec/examples.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/spec/integration/app/legger_spec.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/spec/spec_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/expense_tracker/spec/support/db.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/Gemfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/Gemfile.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/Rakefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/assets/config/manifest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/assets/images/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/assets/javascripts/application.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/assets/javascripts/cable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/assets/javascripts/channels/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/assets/stylesheets/application.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/channels/application_cable/channel.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/channels/application_cable/connection.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/controllers/application_controller.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/controllers/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/helpers/application_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/jobs/application_job.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/mailers/application_mailer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/models/application_record.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/models/concerns/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/views/layouts/application.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/views/layouts/mailer.html.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/app/views/layouts/mailer.text.erb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/bundle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/rails" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/rake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/setup" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/spring" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/update" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/bin/yarn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config.ru" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/application.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/boot.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/cable.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/database.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/environment.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/environments/development.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/environments/production.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/environments/test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/application_controller_renderer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/assets.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/cookies_serializer.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/inflections.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/mime_types.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/locales/en.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/puma.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/routes.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/secrets.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/config/spring.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/db/seeds.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/lib/assets/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/lib/tasks/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/log/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/422.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/apple-touch-icon-precomposed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/apple-touch-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/public/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/application_system_test_case.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/controllers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/fixtures/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/fixtures/files/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/helpers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/integration/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/mailers/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/models/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/system/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/test/test_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/tmp/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../London2/vendor/.keep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../RefactoringRubyEdition/lib/first_example_rental_store.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../RefactoringRubyEdition/spec/first_example_rental_store_spec.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/.rspec" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/.rspec" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/Gemfile" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/Gemfile.lock" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/burger.rb" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/burger.rb" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/c2fi.rb" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/c2fi.rb" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/class_person_with_name.rb" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/class_person_with_name.rb" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/dogs_and_cats_years_kata.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/ensure_clause.rb" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/lib/ensure_clause.rb" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/spec/burger_spec.rb" afterPath="$PROJECT_DIR$/../Well_grounded_Rubyist/spec/burger_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/spec/card_spec.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Well_grounded_Rubyist/spec/dogs_and_cats_years_spec.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../ask_question.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../decending_number.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../delicious_examples.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../difference_between_two_collections.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../hello.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../old_school_rom_num_with_TDD.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../playing_with_ood.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../pood" afterPath="$PROJECT_DIR$/../pood" />
+      <change beforePath="$PROJECT_DIR$/../print_if_less_than_n_characters.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../repeater.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../return_say_moo.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../rubyOrNotRuby.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../say_moo_param.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../select_if_start_with.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../string_formatting_mnethods.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../tests_outputs.rb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,53 +150,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Effective_Testing_Rspec@All_specs_in_spec__Effective_Testing_Rspec.coverage" NAME="All specs in spec: Effective_Testing_Rspec Coverage Results" MODIFIED="1524828174984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Effective_Testing_Rspec" />
-    <SUITE FILE_PATH="coverage/Effective_Testing_Rspec@Ledger__Effective_Testing_Rspec.coverage" NAME="Ledger: Effective_Testing_Rspec Coverage Results" MODIFIED="1524868113587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Effective_Testing_Rspec" />
-    <SUITE FILE_PATH="coverage/Effective_Testing_Rspec@Ledger_expenses_on__Effective_Testing_Rspec.coverage" NAME="Ledger#expenses_on: Effective_Testing_Rspec Coverage Results" MODIFIED="1524875270012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Effective_Testing_Rspec" />
+    <SUITE FILE_PATH="coverage/expense_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529408031116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
+    <SUITE FILE_PATH="coverage/expence_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529405329668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="expence_tracker" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sequel.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expence_tracker/config/sequel.rb">
+      <file leaf-file-name="api.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/api.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ledger.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expence_tracker/app/ledger.rb">
+      <file leaf-file-name="expense_tracker_api_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding>
-                <element signature="e#178#468#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="legger_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/expence_tracker/spec/integration/app/legger_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#1163#1775#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/expence_tracker/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,6 +185,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="RSpec Test Template" />
+        <option value="Ruby Class Template" />
+        <option value="Ruby Module Template" />
       </list>
     </option>
   </component>
@@ -89,16 +196,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spec/coffee_spec.rb" />
-        <option value="$PROJECT_DIR$/.rspec" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/integration/an_integration_spec.rb" />
-        <option value="$PROJECT_DIR$/sequel_test_app/ledger.rb" />
-        <option value="$PROJECT_DIR$/spec/support/db.rb" />
-        <option value="$PROJECT_DIR$/app/ledger.rb" />
-        <option value="$PROJECT_DIR$/spec/integration/app/legger_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/expence_tracker/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/api.rb" />
+        <option value="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
       </list>
     </option>
   </component>
@@ -143,8 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,28 +257,26 @@
             <path>
               <item name="Effective_Testing_Rspec" type="b2602c69:ProjectViewProjectNode" />
               <item name="Effective_Testing_Rspec" type="462c0819:PsiDirectoryNode" />
-              <item name="expence_tracker" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Effective_Testing_Rspec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Effective_Testing_Rspec" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="acceptance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.settings.patched" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/expence_tracker" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spec" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,10 +290,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Ledger#expenses_on: Effective_Testing_Rspec">
-    <configuration name="All specs in spec: Effective_Testing_Rspec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager">
+    <configuration name="All specs in expence_tracker: expence_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Effective_Testing_Rspec" />
+      <module name="expence_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -202,14 +302,14 @@
       <envs>
         <env name="JRUBY_OPTS" value="-X+O" />
       </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
@@ -223,80 +323,9 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Ledger: Effective_Testing_Rspec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Effective_Testing_Rspec" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/integration/app/legger_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Ledger" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="Ledger#expenses_on: Effective_Testing_Rspec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Effective_Testing_Rspec" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/integration/app/legger_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Ledger#expenses_on" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in spec: Effective_Testing_Rspec" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Ledger: Effective_Testing_Rspec" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Ledger#expenses_on: Effective_Testing_Rspec" />
-    </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Ledger#expenses_on: Effective_Testing_Rspec" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Ledger: Effective_Testing_Rspec" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in spec: Effective_Testing_Rspec" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in expence_tracker: expence_tracker" />
       </list>
     </recent_temporary>
   </component>
@@ -306,153 +335,120 @@
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="758083c5-191b-4f2a-b465-444d79c4c198" name="Default" comment="" />
-      <created>1519284263794</created>
+      <changelist id="2754f0f8-3611-43b4-b3d9-3eef5b60ed99" name="Default" comment="" />
+      <created>1529401544638</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519284263794</updated>
-      <workItem from="1519284265224" duration="3911000" />
-      <workItem from="1524575000085" duration="2347000" />
-      <workItem from="1524825677354" duration="17207000" />
-      <workItem from="1526464621445" duration="1651000" />
-      <workItem from="1526484534449" duration="14000" />
-      <workItem from="1528038951161" duration="9000" />
-      <workItem from="1529394003088" duration="909000" />
+      <updated>1529401544638</updated>
+      <workItem from="1529401546077" duration="5191000" />
+      <workItem from="1529406828945" duration="1809000" />
+      <workItem from="1529430518285" duration="117000" />
     </task>
-    <task id="LOCAL-00001" summary="Setup and &quot;happy case&quot; test passed for Chapter 6">
-      <created>1524828465076</created>
+    <task id="LOCAL-00001" summary="New README">
+      <created>1529407027885</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1524828465076</updated>
+      <updated>1529407027885</updated>
     </task>
-    <task id="LOCAL-00002" summary="Configured random running of the specs">
-      <created>1524852120866</created>
+    <task id="LOCAL-00002" summary="Additional setup">
+      <created>1529407270309</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1524852120866</updated>
+      <updated>1529407270309</updated>
     </task>
-    <task id="LOCAL-00003" summary="Spec for &quot;non happy case&quot; test">
-      <created>1524852152800</created>
+    <task id="LOCAL-00003" summary="Additional setup">
+      <created>1529407317628</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1524852152800</updated>
+      <updated>1529407317628</updated>
     </task>
-    <task id="LOCAL-00004" summary="Isolating tests and rolling back transactions">
-      <created>1524852193617</created>
+    <task id="LOCAL-00004" summary="Renaming the repo">
+      <created>1529407395882</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1524852193617</updated>
+      <updated>1529407395882</updated>
     </task>
-    <task id="LOCAL-00005" summary="Tagging and conditional running of examples">
-      <created>1524852869838</created>
+    <task id="LOCAL-00005" summary="Renaming the repo">
+      <created>1529407411420</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1524852869838</updated>
+      <updated>1529407411420</updated>
     </task>
-    <task id="LOCAL-00006" summary="Output file for rspec &quot;--only-failures&quot; configuration">
-      <created>1524867567105</created>
+    <task id="LOCAL-00006" summary="Renaming the repo">
+      <created>1529407475748</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1524867567105</updated>
+      <updated>1529407475748</updated>
     </task>
-    <task id="LOCAL-00007" summary="Tagging">
-      <created>1524867606068</created>
+    <task id="LOCAL-00007" summary="Test that a POST request completes without crashing the app.">
+      <created>1529408097105</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1524867606068</updated>
+      <updated>1529408097105</updated>
     </task>
-    <task id="LOCAL-00008" summary="Behaviour for unhappy case">
-      <created>1524867630255</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1524867630255</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Renamed the parent directory">
-      <created>1524867664222</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1524867664222</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Making queries with 'sequel'.">
-      <created>1524870349264</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1524870349264</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Defining own names or aliases for examples">
-      <created>1524875403632</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1524875403632</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Ledger#expenses_on__Effective_Testing_Rspec - 2018.04.27 at 23h 54m 29s.xml">
-      <configuration name="Ledger#expenses_on: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 10h 46m 41s.xml">
+      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Ledger#expenses_on__Effective_Testing_Rspec - 2018.04.28 at 00h 03m 47s.xml">
-      <configuration name="Ledger#expenses_on: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 10h 48m 26s.xml">
+      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Ledger#expenses_on__Effective_Testing_Rspec - 2018.04.28 at 01h 16m 29s.xml">
-      <configuration name="Ledger#expenses_on: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 10h 48m 35s.xml">
+      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Ledger#expenses_on__Effective_Testing_Rspec - 2018.04.28 at 01h 18m 23s.xml">
-      <configuration name="Ledger#expenses_on: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 10h 56m 58s.xml">
+      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Ledger#expenses_on__Effective_Testing_Rspec - 2018.04.28 at 01h 27m 58s.xml">
-      <configuration name="Ledger#expenses_on: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 11h 48m 50s.xml">
+      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Ledger__Effective_Testing_Rspec - 2018.04.27 at 23h 14m 42s.xml">
-      <configuration name="Ledger: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Ledger__Effective_Testing_Rspec - 2018.04.27 at 23h 18m 10s.xml">
-      <configuration name="Ledger: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Ledger__Effective_Testing_Rspec - 2018.04.27 at 23h 27m 42s.xml">
-      <configuration name="Ledger: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Ledger__Effective_Testing_Rspec - 2018.04.27 at 23h 28m 14s.xml">
-      <configuration name="Ledger: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Ledger__Effective_Testing_Rspec - 2018.04.27 at 23h 28m 34s.xml">
-      <configuration name="Ledger: Effective_Testing_Rspec" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 12h 33m 52s.xml">
+      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26048000" />
+    <option name="totallyTimeSpent" value="7117000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36337626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.49360147" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30140486" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49808428" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40485314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.541507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33021808" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30140486" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.50639856" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -465,226 +461,155 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup and &quot;happy case&quot; test passed for Chapter 6" />
-    <MESSAGE value="Configured random running of the specs" />
-    <MESSAGE value="Spec for &quot;non happy case&quot; test" />
-    <MESSAGE value="Isolating tests and rolling back transactions" />
-    <MESSAGE value="Tagging and conditional running of examples" />
-    <MESSAGE value="Output file for rspec &quot;--only-failures&quot; configuration" />
-    <MESSAGE value="Tagging" />
-    <MESSAGE value="Behaviour for unhappy case" />
-    <MESSAGE value="Renamed the parent directory" />
-    <MESSAGE value="Making queries with 'sequel'." />
-    <MESSAGE value="Defining own names or aliases for examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining own names or aliases for examples" />
+    <MESSAGE value="New README" />
+    <MESSAGE value="Additional setup" />
+    <MESSAGE value="Renaming the repo" />
+    <MESSAGE value="Test that a POST request completes without crashing the app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test that a POST request completes without crashing the app." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/expence_tracker/config/sequel.rb">
+    <entry file="file://$PROJECT_DIR$/app/api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/app/ledger.rb">
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#178#468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/integration/app/legger_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#1163#1775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/config/sequel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/app/ledger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#178#468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/integration/app/legger_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#1163#1775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/config/sequel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/app/ledger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#178#468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/integration/app/legger_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#1163#1775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/config/sequel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/coffee_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/expence_tracker/.rspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/coffee_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/expence_tracker/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/.rspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/integration/an_integration_spec.rb" />
-    <entry file="file://$PROJECT_DIR$/expence_tracker/db/migrations/0001_create_expenses.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/support/db.rb">
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/config/sequel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/examples.txt">
+    <entry file="file://$PROJECT_DIR$/db/migrations/0001_create_expenses.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/hash.rb">
+    <entry file="file://$PROJECT_DIR$/app/ledger.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="614" column="8" lean-forward="false" selection-start-line="614" selection-start-column="8" selection-end-line="614" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/app/ledger.rb">
+    <entry file="file://$PROJECT_DIR$/config/sequel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#178#468#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/spec/integration/app/legger_spec.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#1163#1775#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-551">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expence_tracker/Gemfile">
+    <entry file="file://$PROJECT_DIR$/.rspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rack-test-1.0.0/lib/rack/test/methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rack-test-1.0.0/lib/rack/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rack-2.0.5/lib/rack/mock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/examples.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
