@@ -1,4 +1,0 @@
-example_id                                     | status | run_time        |
----------------------------------------------- | ------ | --------------- |
-./spec/integration/app/legger_spec.rb[1:1:1:1] | passed | 0.01506 seconds |
-./spec/integration/app/legger_spec.rb[1:1:2:1] | failed | 0.03258 seconds |
