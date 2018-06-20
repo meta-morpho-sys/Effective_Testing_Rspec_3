@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2754f0f8-3611-43b4-b3d9-3eef5b60ed99" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Effective_Testing_Rspec.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/expence_tracker.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/api.rb" afterPath="$PROJECT_DIR$/app/api.rb" />
       <change beforePath="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" afterPath="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +15,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/expense_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529408031116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
     <SUITE FILE_PATH="coverage/expence_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529405329668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@All_specs_in_expenses_tracker__expenses_tracker.coverage" NAME="All specs in expenses_tracker: expenses_tracker Coverage Results" MODIFIED="1529489619075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@All_specs_in_expenses_tracker__expenses_tracker.coverage" NAME="All specs in expenses_tracker: expenses_tracker Coverage Results" MODIFIED="1529501934513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="expence_tracker" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -37,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expense_tracker_api_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="expense_tracker_api_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="583">
+              <caret line="49" column="47" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="49" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -69,8 +64,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
         <option value="$PROJECT_DIR$/app/api.rb" />
+        <option value="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
       </list>
     </option>
   </component>
@@ -80,9 +75,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="394" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
@@ -289,7 +284,7 @@
       <workItem from="1529406828945" duration="1809000" />
       <workItem from="1529430518285" duration="261000" />
       <workItem from="1529430853249" duration="132000" />
-      <workItem from="1529431073281" duration="4689000" />
+      <workItem from="1529431073281" duration="7761000" />
     </task>
     <task id="LOCAL-00001" summary="New README">
       <created>1529407027885</created>
@@ -340,22 +335,17 @@
       <option name="project" value="LOCAL" />
       <updated>1529408097105</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Using composed matchers. Placing canned data to slime the test before implementing the actual behaviour.">
+      <created>1529493507286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529493507286</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 11h 48m 50s.xml">
-      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_expence_tracker__expence_tracker - 2018.06.19 at 12h 33m 52s.xml">
-      <configuration name="All specs in expence_tracker: expence_tracker" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.19 at 23h 47m 39s.xml">
-      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 10h 35m 49s.xml">
-      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 10h 42m 31s.xml">
       <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -374,9 +364,21 @@
     <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 11h 13m 40s.xml">
       <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 12h 23m 04s.xml">
+      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 14h 10m 57s.xml">
+      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 14h 37m 31s.xml">
+      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.20 at 14h 38m 55s.xml">
+      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12082000" />
+    <option name="totallyTimeSpent" value="15154000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +390,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <frame x="25" y="22" width="1440" height="878" extended-state="0" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.49360147" order="0" side_tool="false" content_ui="combo" />
@@ -426,7 +428,8 @@
     <MESSAGE value="Additional setup" />
     <MESSAGE value="Renaming the repo" />
     <MESSAGE value="Test that a POST request completes without crashing the app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test that a POST request completes without crashing the app." />
+    <MESSAGE value="Using composed matchers. Placing canned data to slime the test before implementing the actual behaviour." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using composed matchers. Placing canned data to slime the test before implementing the actual behaviour." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -624,18 +627,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="49" column="47" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="49" selection-end-column="47" />
           <folding />
         </state>
       </provider>
