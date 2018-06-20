@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
-require 'rack/test'
+# require 'rack/test'
 require 'json'
 require_relative '../../app/api'
 
 module ExpenseTracker
 
   describe 'ExpenseTracker API' do
-    include Rack::Test::Methods
+    # include Rack::Test::Methods
 
     def app
       ExpenseTracker::API.new
@@ -27,7 +27,7 @@ module ExpenseTracker
     end
 
     it 'records submitted expenses' do
-      pending 'needs to persist expenses'
+      # pending 'needs to persist expenses'
       coffee = post_expense(
         'payee': :Starbucks,
         'amount': 5.75,
