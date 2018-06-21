@@ -2,6 +2,7 @@
 
 require 'sinatra/base'
 require 'json'
+require_relative 'ledger_b'
 
 module ExpenseTracker
   # Routing code for expenses creation and look-up.

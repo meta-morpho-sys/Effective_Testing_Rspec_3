@@ -3,8 +3,6 @@
 require_relative '../../../app/api'
 
 module ExpenseTracker
-  RecordResult = Struct.new(:success?, :expense_id, :error_message)
-
   describe API do
     def app
       API.new(ledger: ledger)
