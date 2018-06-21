@@ -10,6 +10,7 @@ require 'simplecov-console'
 
 RSpec.configure do |config|
   config.order = :random
+  config.filter_gems_from_backtrace 'rack', 'rack-test', 'sequel', 'sinatra'
   # conditional loading of the support/bd file only when an example has a :db tag
   config.when_first_matching_example_defined(:db) do
     require_relative 'support/db'
