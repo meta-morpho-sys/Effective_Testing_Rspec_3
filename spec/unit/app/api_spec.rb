@@ -46,7 +46,7 @@ module ExpenseTracker
           expect(parsed).to include('error' => 'Expense incomplete')
         end
 
-        it 'responds with a 422 (Unprocessable entity' do
+        it 'responds with a 422 (Unprocessable entity)' do
           post '/expenses', JSON.generate(expense)
           expect(last_response.status).to eq 422
         end
