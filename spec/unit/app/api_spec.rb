@@ -25,7 +25,7 @@ module ExpenseTracker
           expect(parsed).to include('expense_id' => 417)
         end
 
-        it 'responds with a 200(OK)' do
+        it 'responds with a 200 (OK)' do
           post '/expenses', JSON.generate(expense)
           expect(last_response.status).to eq 200
         end
@@ -48,6 +48,32 @@ module ExpenseTracker
           post '/expenses', JSON.generate(expense)
           expect(last_response.status).to eq 422
         end
+      end
+    end
+
+    describe "GET '/expenses/:date'" do
+      context 'when expenses exist for the given date' do
+        before do
+          allow(ledger).to receive(:expenses_on)
+            .with('2017-06-12')
+            .and_return(%w[coffee zoo])
+        end
+
+        it 'returns the expense records as JSON' do
+          get '/expenses/2017-06-12'
+          parsed = JSON.parse(last_response.body)
+          expect(parsed).to eq(%w[coffee zoo])
+        end
+
+        it 'responds with a 200 (OK)' do
+          get '/expenses/2017-06-12'
+          expect(last_response.status).to eq 200
+        end
+      end
+
+      context 'when there are no expenses for the given date' do
+        it 'returns an empty JSON array'
+        it 'responds with a 200 (OK)'
       end
     end
   end
