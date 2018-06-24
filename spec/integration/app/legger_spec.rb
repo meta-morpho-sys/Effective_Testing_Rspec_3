@@ -52,7 +52,7 @@ module ExpenseTracker
         )
       end
 
-      pit 'returns a blank array when there are no matching expenses' do
+      it 'returns a blank array when there are no matching expenses' do
         expect(ledger.expenses_on('2017-06-10')).to eq []
       end
     end
