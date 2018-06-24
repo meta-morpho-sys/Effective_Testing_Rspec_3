@@ -25,14 +25,8 @@ module ExpenseTracker
     end
 
     get '/expenses/:date' do
-      date = params[:date]
-      result = @ledger.expenses_on(date)
-      if result.empty?
-        JSON.generate('No expenses for this date')
-      else
-        JSON.generate(result)
-      end
-
+      result = @ledger.expenses_on(params[:date])
+      result.empty? ? JSON.generate('No expenses for this date') : JSON.generate(result)
     end
   end
 end
