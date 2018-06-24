@@ -2,8 +2,8 @@
 
 require 'sequel'
 
-db_name = 'new_bookmark_manager'
+db_name = 'expense_tracker'
 db_name += '_test' if ENV['RACK_ENV'] == 'test'
 DB_NAME = db_name
 
-DB = Sequel.postgres(DB_NAME)
+DB = Sequel.sqlite("./db/#{DB_NAME}.db")

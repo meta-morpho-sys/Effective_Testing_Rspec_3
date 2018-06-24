@@ -6,6 +6,7 @@ require 'rack/test'
 require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
+require_relative '../config/sequel_db_setup'
 
 
 RSpec.configure do |config|

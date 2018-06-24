@@ -15,9 +15,9 @@ group :test do
   gem 'simplecov-console', require: false
 end
 
-gem 'pg'
 gem 'pry'
 gem 'rake'
 gem 'rubocop'
 gem 'sequel'
 gem 'sinatra'
+gem 'sqlite3'
