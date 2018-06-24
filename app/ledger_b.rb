@@ -8,9 +8,11 @@ module ExpenseTracker
 
   class Ledger
 
+    EXPENSES = DB[:expenses]
+
     def record(expense)
       if expense.key?(:payee)
-        p id = DB[:expenses].insert(expense)
+        id = EXPENSES.insert(expense)
         RecordResult.new(true, id, nil)
       else
         message = 'Invalid expense `payee` is required'
@@ -18,6 +20,8 @@ module ExpenseTracker
       end
     end
 
-    def expenses_on(date); end
+    def expenses_on(date)
+      p EXPENSES.where(date: date).all
+    end
   end
 end
