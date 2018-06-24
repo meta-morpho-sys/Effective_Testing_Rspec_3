@@ -27,7 +27,12 @@ module ExpenseTracker
     get '/expenses/:date' do
       date = params[:date]
       result = @ledger.expenses_on(date)
-      JSON.generate(result)
+      if result.empty?
+        JSON.generate('No expenses for this date')
+      else
+        JSON.generate(result)
+      end
+
     end
   end
 end

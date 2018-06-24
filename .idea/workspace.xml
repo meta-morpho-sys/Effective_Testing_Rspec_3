@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2754f0f8-3611-43b4-b3d9-3eef5b60ed99" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/api_snippets.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/ledger_b.rb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/api.rb" afterPath="$PROJECT_DIR$/app/api.rb" />
       <change beforePath="$PROJECT_DIR$/spec/unit/app/api_spec.rb" afterPath="$PROJECT_DIR$/spec/unit/app/api_spec.rb" />
@@ -16,19 +15,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses___expenses_tracker.coverage" NAME="API POST '/expenses': expenses_tracker Coverage Results" MODIFIED="1529676941219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@MyApp_shows_its_length__expenses_tracker.coverage" NAME="MyApp shows its length: expenses_tracker Coverage Results" MODIFIED="1529513285938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expence_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529405329668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@API__expenses_tracker.coverage" NAME="API: expenses_tracker Coverage Results" MODIFIED="1529596604474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API__expenses_tracker.coverage" NAME="API: expenses_tracker Coverage Results" MODIFIED="1529832878344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@ExpenseTracker_API__expenses_tracker.coverage" NAME="ExpenseTracker API: expenses_tracker Coverage Results" MODIFIED="1529513874929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_fails_validation__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense fails validation: expenses_tracker Coverage Results" MODIFIED="1529595502343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_fails_validation__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense fails validation: expenses_tracker Coverage Results" MODIFIED="1529667489937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses____expenses_tracker.coverage" NAME="API POST '/expenses ': expenses_tracker Coverage Results" MODIFIED="1529592036161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@ExpenseTracker_API_records_submitted_expenses__expenses_tracker.coverage" NAME="ExpenseTracker API records submitted expenses: expenses_tracker Coverage Results" MODIFIED="1529506983632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date__when_there_are_no_expenses_for_the_given_date__expenses_tracker.coverage" NAME="API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker Coverage Results" MODIFIED="1529832867976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expense_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529408031116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@api.coverage" NAME="api Coverage Results" MODIFIED="1529509029004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date__when_expenses_exist_for_the_given_date_returns_the_expense_records_as_JSON__expenses_tracker.coverage" NAME="API GET '/expenses/:date' when expenses exist for the given date returns the expense records as JSON: expenses_tracker Coverage Results" MODIFIED="1529758056741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date__when_expenses_exist_for_the_given_date_responds_with_a_200__OK___expenses_tracker.coverage" NAME="API GET '/expenses/:date' when expenses exist for the given date responds with a 200 (OK): expenses_tracker Coverage Results" MODIFIED="1529713667257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_is_successfully_recorded__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense is successfully recorded: expenses_tracker Coverage Results" MODIFIED="1529667326437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_is_successfully_recorded_returns_the_expense_id__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense is successfully recorded returns the expense id: expenses_tracker Coverage Results" MODIFIED="1529712580306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@MyApp_says_hello_world__expenses_tracker.coverage" NAME="MyApp says hello world: expenses_tracker Coverage Results" MODIFIED="1529512806208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@MyApp_says_hello_to_a_person__expenses_tracker.coverage" NAME="MyApp says hello to a person: expenses_tracker Coverage Results" MODIFIED="1529512919386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date__when_expenses_exist_for_the_given_date__expenses_tracker.coverage" NAME="API GET '/expenses/:date' when expenses exist for the given date: expenses_tracker Coverage Results" MODIFIED="1529712598687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date___expenses_tracker.coverage" NAME="API GET '/expenses/:date': expenses_tracker Coverage Results" MODIFIED="1529831419744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date__when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker.coverage" NAME="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker Coverage Results" MODIFIED="1529832975219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_fails_validation_returns_an_error_message__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense fails validation returns an error message: expenses_tracker Coverage Results" MODIFIED="1529594795678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@All_specs_in_expenses_tracker__expenses_tracker.coverage" NAME="All specs in expenses_tracker: expenses_tracker Coverage Results" MODIFIED="1529502314824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@All_specs_in_expenses_tracker__expenses_tracker.coverage" NAME="All specs in expenses_tracker: expenses_tracker Coverage Results" MODIFIED="1529667235773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="expence_tracker" />
@@ -38,28 +46,38 @@
       <file leaf-file-name="api.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ledger_b.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ledger_b.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ledger_b.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/unit/app/api_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="api_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/unit/app/api_spec.rb">
+        <entry file="file://$USER_HOME$/Downloads/code/05-unit-specs/12/expense_tracker/spec/unit/app/api_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="-1577">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,6 +94,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>JSON.parse(last_response.body)</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -89,11 +112,11 @@
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/myapp.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
         <option value="$PROJECT_DIR$/api_snippets.rb" />
-        <option value="$PROJECT_DIR$/spec/unit/app/api_spec.rb" />
-        <option value="$PROJECT_DIR$/app/api.rb" />
+        <option value="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
         <option value="$PROJECT_DIR$/app/ledger_b.rb" />
+        <option value="$PROJECT_DIR$/app/api.rb" />
+        <option value="$PROJECT_DIR$/spec/unit/app/api_spec.rb" />
       </list>
     </option>
   </component>
@@ -104,7 +127,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="249" />
+    <option name="x" value="25" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
@@ -181,46 +204,6 @@
               <item name="unit" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="rack (v2.0.5, ruby-2.4.1-p111) [gem]" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="rack (v2.0.5, ruby-2.4.1-p111) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="rack (v2.0.5, ruby-2.4.1-p111) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sinatra (v2.0.3, ruby-2.4.1-p111) [gem]" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sinatra (v2.0.3, ruby-2.4.1-p111) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expenses_tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="sinatra (v2.0.3, ruby-2.4.1-p111) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sinatra" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,8 +228,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.API: expenses_tracker">
-    <configuration name="API POST '/expenses ': expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker">
+    <configuration name="API GET '/expenses/:date' when expenses exist for the given date returns the expense records as JSON: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -268,7 +251,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/unit/app/api_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API POST '/expenses '" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API GET '/expenses/:date' when expenses exist for the given date returns the expense records as JSON" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -278,7 +261,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="API POST '/expenses' when the expense fails validation returns an error message: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -300,7 +283,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/unit/app/api_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API POST '/expenses' when the expense fails validation returns an error message" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API GET '/expenses/:date' when there are no expenses for the given date returns an error message" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -310,7 +293,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="API POST '/expenses' when the expense fails validation: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -332,7 +315,39 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/unit/app/api_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API POST '/expenses' when the expense fails validation" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API GET '/expenses/:date' when there are no expenses for the given date" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="API GET '/expenses/:date': expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="expenses_tracker" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/unit/app/api_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="API GET '/expenses/:date'" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -374,52 +389,20 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="ExpenseTracker API: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="expenses_tracker" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ExpenseTracker API" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.ExpenseTracker API: expenses_tracker" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.API: expenses_tracker" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.API POST '/expenses ': expenses_tracker" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.API POST '/expenses' when the expense fails validation returns an error message: expenses_tracker" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.API POST '/expenses' when the expense fails validation: expenses_tracker" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date' when expenses exist for the given date returns the expense records as JSON: expenses_tracker" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date': expenses_tracker" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.API: expenses_tracker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.API: expenses_tracker" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.API POST '/expenses' when the expense fails validation: expenses_tracker" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.API POST '/expenses' when the expense fails validation returns an error message: expenses_tracker" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.API POST '/expenses ': expenses_tracker" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.ExpenseTracker API: expenses_tracker" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.API: expenses_tracker" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date': expenses_tracker" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.API GET '/expenses/:date' when expenses exist for the given date returns the expense records as JSON: expenses_tracker" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +421,7 @@
       <workItem from="1529406828945" duration="1809000" />
       <workItem from="1529430518285" duration="261000" />
       <workItem from="1529430853249" duration="132000" />
-      <workItem from="1529431073281" duration="28889000" />
+      <workItem from="1529431073281" duration="48276000" />
     </task>
     <task id="LOCAL-00001" summary="New README">
       <created>1529407027885</created>
@@ -559,43 +542,64 @@
       <option name="project" value="LOCAL" />
       <updated>1529595782202</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Defined a Ledger class,using the guidance of the &quot;verifying doubles&quot; feature of RSpec to create the correct interface for the class.">
+      <created>1529596773626</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1529596773626</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Reducing duplication by using the let construct.">
+      <created>1529667627823</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1529667627823</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Testing the 'happy case' of finding expenses filtered out per date.">
+      <created>1529831707572</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1529831707572</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="API_POST_'_expenses'_when_the_expense_fails_validation__expenses_tracker - 2018.06.21 at 16h 34m 21s.xml">
-      <configuration name="API POST '/expenses' when the expense fails validation: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date__expenses_tracker - 2018.06.24 at 10h 25m 05s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API_POST_'_expenses'_when_the_expense_fails_validation__expenses_tracker - 2018.06.21 at 16h 34m 54s.xml">
-      <configuration name="API POST '/expenses' when the expense fails validation: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date__expenses_tracker - 2018.06.24 at 10h 33m 21s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API_POST_'_expenses'_when_the_expense_fails_validation__expenses_tracker - 2018.06.21 at 16h 37m 12s.xml">
-      <configuration name="API POST '/expenses' when the expense fails validation: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date__expenses_tracker - 2018.06.24 at 10h 34m 28s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API_POST_'_expenses'_when_the_expense_fails_validation__expenses_tracker - 2018.06.21 at 16h 38m 22s.xml">
-      <configuration name="API POST '/expenses' when the expense fails validation: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker - 2018.06.24 at 10h 27m 29s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API__expenses_tracker - 2018.06.21 at 16h 40m 02s.xml">
-      <configuration name="API: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker - 2018.06.24 at 10h 29m 04s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API__expenses_tracker - 2018.06.21 at 16h 41m 32s.xml">
-      <configuration name="API: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker - 2018.06.24 at 10h 31m 22s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API__expenses_tracker - 2018.06.21 at 16h 51m 09s.xml">
-      <configuration name="API: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker - 2018.06.24 at 10h 32m 08s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API__expenses_tracker - 2018.06.21 at 16h 51m 20s.xml">
-      <configuration name="API: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker - 2018.06.24 at 10h 33m 11s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API__expenses_tracker - 2018.06.21 at 16h 55m 57s.xml">
-      <configuration name="API: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="API_GET_'_expenses__date'_when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker - 2018.06.24 at 10h 36m 15s.xml">
+      <configuration name="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="API__expenses_tracker - 2018.06.21 at 16h 56m 45s.xml">
+    <history-entry file="API__expenses_tracker - 2018.06.24 at 10h 34m 39s.xml">
       <configuration name="API: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36282000" />
+    <option name="totallyTimeSpent" value="55669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +611,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="22" width="1440" height="878" extended-state="0" />
+    <frame x="25" y="22" width="1440" height="878" extended-state="0" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -621,7 +625,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.50639856" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -655,11 +659,14 @@
     <MESSAGE value="Testing for an OK response and DRYing the specs by moving the setup code to a before hook." />
     <MESSAGE value="Testing the unhappy case of failing expenses registration" />
     <MESSAGE value="Corrected a typo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected a typo." />
+    <MESSAGE value="Defined a Ledger class,using the guidance of the &quot;verifying doubles&quot; feature of RSpec to create the correct interface for the class." />
+    <MESSAGE value="Reducing duplication by using the let construct." />
+    <MESSAGE value="Testing the 'happy case' of finding expenses filtered out per date." />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing the 'happy case' of finding expenses filtered out per date." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -889,14 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rack-2.0.5/lib/rack/response.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -913,34 +912,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rb/testing/patch/bdd/teamcity/spec/runner/formatter/teamcity/formatter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="696" column="0" lean-forward="false" selection-start-line="696" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/simplecov-0.16.1/lib/simplecov/defaults.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1927" column="0" lean-forward="false" selection-start-line="1927" selection-start-column="0" selection-end-line="1927" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="601" column="0" lean-forward="false" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/ledger.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="267">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code/05-unit-specs/05/expense_tracker/spec/unit/app/api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/unit/app/api_spec.rb">
+    <entry file="file://$USER_HOME$/Downloads/code/05-unit-specs/06/expense_tracker/spec/unit/app/api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="-655">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/api.rb">
+    <entry file="file://$USER_HOME$/Downloads/code/05-unit-specs/12/expense_tracker/spec/unit/app/api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="-1577">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ledger_b.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/unit/app/api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
           <folding />
         </state>
       </provider>
