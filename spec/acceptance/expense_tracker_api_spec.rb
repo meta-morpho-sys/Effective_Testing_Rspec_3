@@ -6,7 +6,7 @@ require_relative '../../app/api'
 
 module ExpenseTracker
 
-  describe 'ExpenseTracker API' do
+  describe 'ExpenseTracker API', :db do
     # include Rack::Test::Methods
 
     def app
@@ -27,21 +27,20 @@ module ExpenseTracker
     end
 
     it 'records submitted expenses' do
-      pending 'needs to persist expenses'
       coffee = post_expense(
-        'payee': :Starbucks,
-        'amount': 5.75,
-        'date': '2017-06-10'
+        'payee' => 'Starbucks',
+        'amount' => 5.75,
+        'date' => '2017-06-10'
       )
       zoo = post_expense(
-        'payee': :Zoo,
-        'amount': 15.25,
-        'date': '2017-06-10'
+        'payee'  => 'Zoo',
+        'amount' => 15.25,
+        'date' => '2017-06-10'
       )
       groceries = post_expense(
-        'payee': :'Whole Foods',
-        'amount': 95.20,
-        'date': '2017-06-11'
+        'payee' => 'Whole Foods',
+        'amount' => 95.20,
+        'date' => '2017-06-11'
       )
 
       get '/expenses/2017-06-10'

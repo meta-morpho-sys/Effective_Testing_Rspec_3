@@ -14,7 +14,7 @@ module ExpenseTracker
       let(:parsed) { JSON.parse(last_response.body) }
 
       context 'when the expense is successfully recorded' do
-        let(:expense) { { 'some' => 'data' } }
+        let(:expense) { { some: 'data' } }
         before do
           allow(ledger).to receive(:record)
             .with(expense)
@@ -32,7 +32,7 @@ module ExpenseTracker
       end
 
       context 'when the expense fails validation' do
-        let(:expense) { { 'some' => 'data' } }
+        let(:expense) { { some: 'data' } }
         before do
           allow(ledger).to receive(:record)
             .with(expense)

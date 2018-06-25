@@ -2,6 +2,7 @@
 
 require 'sinatra/base'
 require 'json'
+require_relative '../config/sequel_db_setup'
 require_relative 'ledger'
 
 module ExpenseTracker
@@ -14,7 +15,7 @@ module ExpenseTracker
     end
 
     post '/expenses' do
-      expense = JSON.parse(request.body.read)
+      expense = JSON.parse(request.body.read, symbolize_names: true)
       result = @ledger.record(expense)
       if result.success?
         JSON.generate('expense_id' => result.expense_id)
