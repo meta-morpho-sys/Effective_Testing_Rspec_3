@@ -14,7 +14,7 @@ module ExpenseTracker
     end
 
     def record_to_hash
-      JSON.parse(last_response, symbolize_names: true)
+      JSON.parse(last_response.body, symbolize_names: true)
     end
 
     def post_expense(expense)
@@ -22,8 +22,8 @@ module ExpenseTracker
       expect(last_response.status).to eq 200
 
       parsed = record_to_hash
-      expect(parsed).to include('expense_id' => a_kind_of(Integer))
-      expense.merge('id' => parsed['expense_id'])
+      expect(parsed).to include(expense_id: a_kind_of(Integer))
+      expense.merge(id: parsed[:expense_id])
     end
 
     it 'records submitted expenses' do
@@ -45,7 +45,7 @@ module ExpenseTracker
 
       get '/expenses/2017-06-10'
       expect(last_response.status).to eq 200
-      expenses = JSON.parse(last_response, symbolize_names: true)
+      expenses = JSON.parse(last_response.body, symbolize_names: true)
       expect(expenses).to contain_exactly coffee, zoo
       expect(expenses).to_not include groceries
     end
