@@ -4,11 +4,9 @@
     <list default="true" id="2754f0f8-3611-43b4-b3d9-3eef5b60ed99" name="Default" comment="Symbolized names while parsing data with JSON">
       <change beforePath="" afterPath="$PROJECT_DIR$/api_snippets.rb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/api.rb" afterPath="$PROJECT_DIR$/app/api.rb" />
+      <change beforePath="$PROJECT_DIR$/app/ledger.rb" afterPath="$PROJECT_DIR$/app/ledger.rb" />
       <change beforePath="$PROJECT_DIR$/db/expense_tracker_test.db" afterPath="$PROJECT_DIR$/db/expense_tracker_test.db" />
-      <change beforePath="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" afterPath="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
       <change beforePath="$PROJECT_DIR$/spec/integration/app/legger_spec.rb" afterPath="$PROJECT_DIR$/spec/integration/app/legger_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/unit/app/api_spec.rb" afterPath="$PROJECT_DIR$/spec/unit/app/api_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +17,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses___expenses_tracker.coverage" NAME="API POST '/expenses': expenses_tracker Coverage Results" MODIFIED="1529676941219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@Ledger_record_when_an_expense_lacks_a_payee__expenses_tracker.coverage" NAME="Ledger#record when an expense lacks a payee: expenses_tracker Coverage Results" MODIFIED="1529882954024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@Ledger_record_when_an_expense_lacks_a_payee__expenses_tracker.coverage" NAME="Ledger#record when an expense lacks a payee: expenses_tracker Coverage Results" MODIFIED="1530017582426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@MyApp_shows_its_length__expenses_tracker.coverage" NAME="MyApp shows its length: expenses_tracker Coverage Results" MODIFIED="1529513285938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expence_tracker@All_specs_in_expence_tracker__expence_tracker.coverage" NAME="All specs in expence_tracker: expence_tracker Coverage Results" MODIFIED="1529405329668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expence_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@ExpenseTracker_API__expenses_tracker.coverage" NAME="ExpenseTracker API: expenses_tracker Coverage Results" MODIFIED="1529513874929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_fails_validation__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense fails validation: expenses_tracker Coverage Results" MODIFIED="1529667489937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@ExpenseTracker_API__expenses_tracker.coverage" NAME="ExpenseTracker API: expenses_tracker Coverage Results" MODIFIED="1529885729119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses____expenses_tracker.coverage" NAME="API POST '/expenses ': expenses_tracker Coverage Results" MODIFIED="1529592036161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@ExpenseTracker_API_records_submitted_expenses__expenses_tracker.coverage" NAME="ExpenseTracker API records submitted expenses: expenses_tracker Coverage Results" MODIFIED="1529885166962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@Ledger__expenses_tracker.coverage" NAME="Ledger: expenses_tracker Coverage Results" MODIFIED="1529883269313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@ExpenseTracker_API_records_submitted_expenses__expenses_tracker.coverage" NAME="ExpenseTracker API records submitted expenses: expenses_tracker Coverage Results" MODIFIED="1529885709641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@Ledger__expenses_tracker.coverage" NAME="Ledger: expenses_tracker Coverage Results" MODIFIED="1529885839551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@Run_spec__legger_spec___expenses_tracker.coverage" NAME="Run spec 'legger_spec': expenses_tracker Coverage Results" MODIFIED="1529876985834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_is_successfully_recorded_returns_the_expense_id__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense is successfully recorded returns the expense id: expenses_tracker Coverage Results" MODIFIED="1529712580306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@MyApp_says_hello_world__expenses_tracker.coverage" NAME="MyApp says hello world: expenses_tracker Coverage Results" MODIFIED="1529512806208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
@@ -48,8 +46,9 @@
     <SUITE FILE_PATH="coverage/expenses_tracker@Ledger_record__expenses_tracker.coverage" NAME="Ledger#record: expenses_tracker Coverage Results" MODIFIED="1529883096466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@MyApp_says_hello_to_a_person__expenses_tracker.coverage" NAME="MyApp says hello to a person: expenses_tracker Coverage Results" MODIFIED="1529512919386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_GET___expenses__date__when_there_are_no_expenses_for_the_given_date_returns_an_error_message__expenses_tracker.coverage" NAME="API GET '/expenses/:date' when there are no expenses for the given date returns an error message: expenses_tracker Coverage Results" MODIFIED="1529856720673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@Ledger_record_when_an_expense_lacks_an_amount__expenses_tracker.coverage" NAME="Ledger#record when an expense lacks an amount: expenses_tracker Coverage Results" MODIFIED="1530017730837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
     <SUITE FILE_PATH="coverage/expenses_tracker@API_POST___expenses__when_the_expense_fails_validation_returns_an_error_message__expenses_tracker.coverage" NAME="API POST '/expenses' when the expense fails validation returns an error message: expenses_tracker Coverage Results" MODIFIED="1529594795678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
-    <SUITE FILE_PATH="coverage/expenses_tracker@All_specs_in_expenses_tracker__expenses_tracker.coverage" NAME="All specs in expenses_tracker: expenses_tracker Coverage Results" MODIFIED="1529885050160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
+    <SUITE FILE_PATH="coverage/expenses_tracker@All_specs_in_expenses_tracker__expenses_tracker.coverage" NAME="All specs in expenses_tracker: expenses_tracker Coverage Results" MODIFIED="1530016749045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="expenses_tracker" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -71,38 +70,18 @@
       <file leaf-file-name="api.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="143">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="legger_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="legger_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/integration/app/legger_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/unit/app/api_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api_snippets.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_snippets.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="344">
+              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -112,17 +91,7 @@
         <entry file="file://$PROJECT_DIR$/app/ledger.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="expense_tracker_api_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -143,7 +112,14 @@
     <findStrings>
       <find>JSON.parse(last_response.body)</find>
       <find>sequel_db_setup'</find>
+      <find>JSON.parse</find>
+      <find>'date' =&gt;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>payee:</replace>
+      <replace>amount:</replace>
+      <replace>date:</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,10 +140,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/ledger_b.rb" />
         <option value="$PROJECT_DIR$/app/api.rb" />
-        <option value="$PROJECT_DIR$/app/ledger.rb" />
-        <option value="$PROJECT_DIR$/spec/integration/app/legger_spec.rb" />
         <option value="$PROJECT_DIR$/spec/unit/app/api_spec.rb" />
         <option value="$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/integration/app/legger_spec.rb" />
+        <option value="$PROJECT_DIR$/app/ledger.rb" />
       </list>
     </option>
   </component>
@@ -178,9 +154,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
     <option name="y" value="22" />
-    <option name="width" value="1532" />
-    <option name="height" value="925" />
+    <option name="width" value="1440" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -309,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.ExpenseTracker API records submitted expenses: expenses_tracker">
+  <component name="RunManager" selected="RSpec.Ledger#record when an expense lacks an amount: expenses_tracker">
     <configuration name="All specs in expenses_tracker: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
@@ -342,7 +319,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="ExpenseTracker API records submitted expenses: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="ExpenseTracker API: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -364,7 +341,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/acceptance/expense_tracker_api_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ExpenseTracker API records submitted expenses" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ExpenseTracker API" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -406,7 +383,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Ledger#expenses_on returns a blank array when there are no matching expenses: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Ledger#record when an expense lacks a payee: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -428,7 +405,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/integration/app/legger_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Ledger#expenses_on returns a blank array when there are no matching expenses" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Ledger#record when an expense lacks a payee" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -438,7 +415,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Ledger#record: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Ledger#record when an expense lacks an amount: expenses_tracker" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="expenses_tracker" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -460,7 +437,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/integration/app/legger_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Ledger#record" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Ledger#record when an expense lacks an amount" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -472,18 +449,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in expenses_tracker: expenses_tracker" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Ledger#record: expenses_tracker" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Ledger#expenses_on returns a blank array when there are no matching expenses: expenses_tracker" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Ledger: expenses_tracker" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.ExpenseTracker API records submitted expenses: expenses_tracker" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Ledger: expenses_tracker" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.ExpenseTracker API: expenses_tracker" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Ledger#record when an expense lacks an amount: expenses_tracker" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Ledger#record when an expense lacks a payee: expenses_tracker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.ExpenseTracker API records submitted expenses: expenses_tracker" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in expenses_tracker: expenses_tracker" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Ledger: expenses_tracker" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Ledger#expenses_on returns a blank array when there are no matching expenses: expenses_tracker" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Ledger#record: expenses_tracker" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Ledger#record when an expense lacks an amount: expenses_tracker" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Ledger#record when an expense lacks a payee: expenses_tracker" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in expenses_tracker: expenses_tracker" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Ledger: expenses_tracker" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.ExpenseTracker API: expenses_tracker" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +479,7 @@
       <workItem from="1529406828945" duration="1809000" />
       <workItem from="1529430518285" duration="261000" />
       <workItem from="1529430853249" duration="132000" />
-      <workItem from="1529431073281" duration="63004000" />
+      <workItem from="1529431073281" duration="69081000" />
     </task>
     <task id="LOCAL-00001" summary="New README">
       <created>1529407027885</created>
@@ -700,43 +677,64 @@
       <option name="project" value="LOCAL" />
       <updated>1529877081705</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Symbolized names while parsing data with JSON. Some minor changes and fixed bugs.">
+      <created>1529885245943</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1529885245943</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Symbolized names while parsing data with JSON">
+      <created>1529885877017</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1529885877017</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fixed a bug after making JSON to symbolize names">
+      <created>1530016862248</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1530016862249</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.25 at 01h 00m 06s.xml">
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.26 at 13h 38m 09s.xml">
       <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.25 at 01h 00m 58s.xml">
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.26 at 13h 38m 44s.xml">
       <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.25 at 01h 01m 37s.xml">
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.26 at 13h 39m 03s.xml">
       <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.25 at 01h 03m 14s.xml">
+    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.26 at 13h 39m 09s.xml">
       <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.25 at 01h 03m 42s.xml">
-      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Ledger#record_when_an_expense_lacks_a_payee__expenses_tracker - 2018.06.26 at 13h 53m 03s.xml">
+      <configuration name="Ledger#record when an expense lacks a payee: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_expenses_tracker__expenses_tracker - 2018.06.25 at 01h 04m 10s.xml">
-      <configuration name="All specs in expenses_tracker: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Ledger#record_when_an_expense_lacks_an_amount__expenses_tracker - 2018.06.26 at 13h 48m 34s.xml">
+      <configuration name="Ledger#record when an expense lacks an amount: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ExpenseTracker_API_records_submitted_expenses__expenses_tracker - 2018.06.25 at 00h 43m 35s.xml">
-      <configuration name="ExpenseTracker API records submitted expenses: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Ledger#record_when_an_expense_lacks_an_amount__expenses_tracker - 2018.06.26 at 13h 52m 10s.xml">
+      <configuration name="Ledger#record when an expense lacks an amount: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ExpenseTracker_API_records_submitted_expenses__expenses_tracker - 2018.06.25 at 00h 44m 51s.xml">
-      <configuration name="ExpenseTracker API records submitted expenses: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Ledger#record_when_an_expense_lacks_an_amount__expenses_tracker - 2018.06.26 at 13h 53m 11s.xml">
+      <configuration name="Ledger#record when an expense lacks an amount: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ExpenseTracker_API_records_submitted_expenses__expenses_tracker - 2018.06.25 at 01h 00m 02s.xml">
-      <configuration name="ExpenseTracker API records submitted expenses: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Ledger#record_when_an_expense_lacks_an_amount__expenses_tracker - 2018.06.26 at 13h 54m 33s.xml">
+      <configuration name="Ledger#record when an expense lacks an amount: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="ExpenseTracker_API_records_submitted_expenses__expenses_tracker - 2018.06.25 at 01h 06m 07s.xml">
-      <configuration name="ExpenseTracker API records submitted expenses: expenses_tracker" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Ledger#record_when_an_expense_lacks_an_amount__expenses_tracker - 2018.06.26 at 13h 55m 31s.xml">
+      <configuration name="Ledger#record when an expense lacks an amount: expenses_tracker" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70397000" />
+    <option name="totallyTimeSpent" value="76474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,16 +746,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1532" height="925" extended-state="0" />
+    <frame x="25" y="22" width="1440" height="878" extended-state="0" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30140486" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53975904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4120482" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37108433" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22214764" sideWeight="0.49360147" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53895277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41123882" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3933589" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.49360147" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -782,9 +780,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="New README" />
-    <MESSAGE value="Additional setup" />
-    <MESSAGE value="Renaming the repo" />
     <MESSAGE value="Test that a POST request completes without crashing the app." />
     <MESSAGE value="Using composed matchers. Placing canned data to slime the test before implementing the actual behaviour." />
     <MESSAGE value="Extracting 'posting expenses' logic into a helper method. Adding tests for getting an expense from out web service" />
@@ -807,7 +802,10 @@
     <MESSAGE value="Refactoring." />
     <MESSAGE value="Deleted, because there is a new version of the file. Don't want to mess up the code." />
     <MESSAGE value="Renamed a new file with old name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed a new file with old name" />
+    <MESSAGE value="Symbolized names while parsing data with JSON. Some minor changes and fixed bugs." />
+    <MESSAGE value="Symbolized names while parsing data with JSON" />
+    <MESSAGE value="Fixed a bug after making JSON to symbolize names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug after making JSON to symbolize names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1117,14 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/expense_tracker_test.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/expense_tracker.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1165,14 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_snippets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/examples.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1181,26 +1163,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ledger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="143">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/integration/app/legger_spec.rb">
+    <entry file="file://$PROJECT_DIR$/db/expense_tracker_test.db">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_snippets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1213,10 +1203,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/acceptance/expense_tracker_api_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/ledger.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integration/app/legger_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
           <folding />
         </state>
       </provider>
